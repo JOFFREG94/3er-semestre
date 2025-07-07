@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana6\\semana6.csproj",
-      "projectName": "semana6",
-      "projectPath": "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana6\\semana6.csproj",
+      "projectUniqueName": "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana7\\semana7.csproj",
+      "projectName": "semana7",
+      "projectPath": "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana7\\semana7.csproj",
       "packagesPath": "C:\\Users\\JOFFRE G\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana6\\obj\\",
+      "outputPath": "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana7\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JOFFRE G\\AppData\\Roaming\\NuGet\\NuGet.Config"
