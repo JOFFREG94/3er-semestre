@@ -1,9 +1,30 @@
 ﻿using System;
-using System.Collections.Generic;
 
 class Program
 {
     static void Main()
+    {
+        Console.WriteLine("Menú de ejercicios:");
+        Console.WriteLine("1. Verificar paréntesis balanceados");
+        Console.WriteLine("2. Torres de Hanoi");
+        Console.Write("Elige una opción (1 o 2): ");
+        string? opcion = Console.ReadLine();
+
+        if (opcion == "1")
+        {
+            EjecutarParentesis();
+        }
+        else if (opcion == "2")
+        {
+            TorresDeHanoi.Ejecutar();
+        }
+        else
+        {
+            Console.WriteLine("Opción no válida.");
+        }
+    }
+
+    static void EjecutarParentesis()
     {
         string expresion = "{7 + (8 * 5) - [(9 - 7) + (4 + 1)]}";
         if (EstaBalanceado(expresion))
@@ -14,7 +35,7 @@ class Program
 
     static bool EstaBalanceado(string expresion)
     {
-        Stack<char> pila = new Stack<char>();
+        var pila = new Stack<char>();
         foreach (char c in expresion)
         {
             if (c == '(' || c == '[' || c == '{')
