@@ -1,8 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class BalanceoParentesis
+class Program
 {
+    static void Main()
+    {
+        string expresion = "{7 + (8 * 5) - [(9 - 7) + (4 + 1)]}";
+        if (EstaBalanceado(expresion))
+            Console.WriteLine("Fórmula balanceada.");
+        else
+            Console.WriteLine("Fórmula desbalanceada.");
+    }
+
     static bool EstaBalanceado(string expresion)
     {
         Stack<char> pila = new Stack<char>();
@@ -21,14 +30,5 @@ class BalanceoParentesis
             }
         }
         return pila.Count == 0;
-    }
-
-    static void Main()
-    {
-        string expresion = "{7 + (8 * 5) - [(9 - 7) + (4 + 1)]}";
-        if (EstaBalanceado(expresion))
-            Console.WriteLine("Fórmula balanceada.");
-        else
-            Console.WriteLine("Fórmula desbalanceada.");
     }
 }
