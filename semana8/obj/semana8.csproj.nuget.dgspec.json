@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana6\\semana6.csproj": {}
+    "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana8\\semana8.csproj": {}
   },
   "projects": {
-    "c:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana6\\semana6.csproj": {
+    "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana8\\semana8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana6\\semana6.csproj",
-        "projectName": "semana6",
-        "projectPath": "c:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana6\\semana6.csproj",
+        "projectUniqueName": "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana8\\semana8.csproj",
+        "projectName": "semana8",
+        "projectPath": "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana8\\semana8.csproj",
         "packagesPath": "C:\\Users\\JOFFRE G\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana6\\obj\\",
+        "outputPath": "C:\\Users\\JOFFRE G\\Documents\\TAREAS VISUAL CODE\\semana8\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JOFFRE G\\AppData\\Roaming\\NuGet\\NuGet.Config"
